@@ -1,0 +1,33 @@
+# Diretórios de build
+dev/
+dist/
+prebuild/
+
+# Dependências de Node.js
+node_modules/
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Cache do Grunt
+.grunt/
+
+# Arquivos de compilação do LESS
+src/styles/*.css
+
+# Arquivos de saída do Sass (caso esteja usando Sass também)
+src/styles/*.css.map
+
+# Arquivos de lock
+package-lock.json
+yarn.lock
